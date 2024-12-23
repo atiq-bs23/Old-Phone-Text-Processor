@@ -14,7 +14,7 @@ if(int.TryParse(Console.ReadLine(), out int numberOfTest))
             continue;
         }
         var output = new DigitToText().ProcessInput(input);
-        Console.WriteLine(output);
+        Console.WriteLine($"Output text: {output}");
     }
 }
 else
